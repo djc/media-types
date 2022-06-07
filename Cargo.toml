@@ -6,6 +6,6 @@ edition = "2018"
 
 [dependencies]
 futures = "0.3.5"
-reqwest = "0.10"
-scraper = "0.12"
-tokio = { version = "0.2.21", features = ["macros"] }
+reqwest = "0.11"
+scraper = "0.13"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
